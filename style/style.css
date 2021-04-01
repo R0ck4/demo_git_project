@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif,Arial;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.headerWrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 100%;
+    justify-content: space-between;
+}
+.allWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+.headerDescription{
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    margin-left:  450px;
+}
+.main{
+    width: 100%;
+
+}
+
+.registration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+
+.counter{
+    width: 50%;
+    height: 290px;
+    border: 1px black solid;
+}
+
+.registerButtons{
+    width: 40%;
+    height: 290px;
+    border: 1px black solid;
+}
+
+.orderWrap{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.order{
+    width: 100%;
+    height: 300px;
+    border: 1px black solid;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px black solid;
+
+
+}
+
+.footer_info{
+    height: 120px;
+    width: 100%;
+}
+
+.footer_icons{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer_icon{
+    height: 100%;
+    width: 30%;
+}
+/*USERPAGE*/
+.underHeader{
+    height: 50px;
+    width: 100%;
+    background: red;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.try{
+    height: 50px;
+    width: 100%;
+
+}
+.zad{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dec{
+    display: block;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logout{
+
+}
+
+.user_order_wrap{
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    border: 1px black solid;
+
+}
+
+.order_info{
+    display: flex;
+    flex-direction: row;
+}

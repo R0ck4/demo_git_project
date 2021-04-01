@@ -1,0 +1,3 @@
+  if(isset($_POST['password'] && $_POST['password'] == $_POST['confPassword'])) $password = $_POST['password'];
+    if (isset($_POST['login'])) $login = $_POST['login'];
+    if (isset($_POST['fio'])) $fio = $_POST['fio'];
